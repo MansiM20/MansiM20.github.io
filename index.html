@@ -28,7 +28,7 @@
 
       .content h2 {
         color: #fff;
-        font-size: 8em;
+        font-size: 4em;
         position: absolute;
         transform: translate(-50%, -50%);
       }
@@ -73,16 +73,26 @@
           );
         }
       }
+
+      @media screen and (max-width: 768px) {
+        .content h2 {
+          font-size: 3em;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .content h2 {
+          font-size: 2em;
+        }
+      }
     </style>
   </head>
   <body>
-    <div class="container">
     <section>
       <div class="content">
         <h2>Mansi:)</h2>
         <h2>Mansi:)</h2>
       </div>
     </section>
-    </div>
   </body>
 </html>
